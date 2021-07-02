@@ -1,0 +1,159 @@
+.titulo-principal__numero span
+  color: $color-sistema-texto
+
+.align-items-bottom
+  align-items: flex-end
+
+.borde-cuadro
+  border: 3px solid #FFBA5B
+
+.tarjeta--morada 
+  background-color: #FFCBBF
+.acordion__accion__btn--a 
+  background-color: #675D84
+  color: #FFF
+.tarjeta--morada:focus
+  background-color: #F2EDFF
+.acordion .tarjeta--morada  
+  margin-bottom: 7px !important
+  padding: 10px 24px 0px 24px !important
+.acordion .tarjeta--morada .acordion__header
+  margin-bottom: 10px !important
+
+.acordion .tarjeta--gris  
+  margin-bottom: 7px !important
+  padding: 10px 24px 0px 24px !important
+.acordion .tarjeta--gris .acordion__header
+  margin-bottom: 10px !important  
+.acordion__accion__btn--b 
+  border: 1px solid #AFAFAF
+
+
+.tarjeta-rosa-linea
+  background-color: #FFCBBF
+  border-left: 8px solid #FF7758
+.tarjeta-morada-linea
+  background-color: #F2EDFF
+  border-left: 8px solid #C3B5EC    
+
+.color-morado
+  background-color: #F2EDFF
+.color-naranja
+  background-color: #FFE9CB
+
+.tarjeta--morado
+  background-color: #675D84
+
+.img-flotante
+  position: absolute
+  width: 28%
+  margin-top: -56px
+
+.color-gradiente
+  background: -prefix-linear-gradient(top, #FF7758, #675D84)
+  background: linear-gradient(to bottom, #FF7758, #675D84)
+
+.tabs-a__tab
+  background-color: #675D84
+  color: #FFF
+
+.slider-tema1 .slyder-d__content__card
+  background-color: #ffffffde
+.slider-tema1 .slyder__btn 
+  background-color: #FF7758
+.slider-tema1 .slyder__btn i
+  color: #FFF
+
+.lista-ul--color.lista-morada li > i:first-of-type
+  color: #675D84
+.lista-ul--color.lista-salmon li > i:first-of-type
+  color: #FF7758
+
+.lista-ol--cuadro__vineta
+  color: $color-sistema-texto
+
+.tarjeta-avatar .tarjeta.color-morado
+  padding-top: 35px !important
+
+.bloque-texto-b.color-morado2:before
+  background-color: #F2EDFF
+.bloque-texto-b:before
+  top: 61%
+  bottom: 6%
+  left: 33%
+
+
+
+
+.tabs-b
+  border-bottom: 0px
+  &__header
+    margin-bottom: 15px
+  &__tab
+    background-color: #FFF
+    border-right: 0px
+    border-bottom: 4px solid $color-sistema-f
+    line-height: $heading-line-height
+    text-align: center
+    display: flex
+    align-items: center
+    justify-content: center
+    position: relative
+    &:after, &:before
+      content: ''
+      display: block
+      position: absolute
+      transform: translate(-50%,-50%)
+    &:after
+      width: 2px
+      height: 20px
+      top: 80%
+      right: -2px
+      background-color: $color-sistema-f
+    &:last-child
+      &:after
+        display: none
+
+    &--active
+      border-bottom: 4px solid !important
+      &:before
+        width: 0
+        height: 0
+        border-left: 10px solid transparent
+        border-right: 10px solid transparent
+        border-top: 10px solid
+        left: 50%
+        top: calc(100% + 6px)
+
+      &:active, &:focus, &:hover
+        background-color: transparent
+      .tabs-b__tab__title
+        font-weight: $base-bold-font-weight
+        font-size: 1em
+
+  &.color-acento-contenido
+    .tabs-b__tab--active
+      border-bottom-color: $color-acento-contenido !important
+      border-top-color: #FFF !important
+      &:before
+        border-top-color: $color-acento-contenido
+.tabs-b__tab__title
+  font-size: 1em        
+.tabs-b__tab__icon
+  width: 60px
+  filter: grayscale(1)
+.tabs-b__tab__icon img
+  height: 65px
+.tabs-b__tab--active .tabs-b__tab__icon
+  filter: grayscale(0)
+.tabs-b__tab:active, .tabs-b__tab:focus, .tabs-b__tab:hover
+  background-color: #FFF
+
+
+
+
+@media (max-width: $bp-max-md)
+  .img-flotante
+    position: initial
+    width: 100%
+    margin-top: 0px
