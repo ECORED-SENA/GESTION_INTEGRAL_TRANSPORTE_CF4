@@ -68,6 +68,9 @@
   color: #675D84
 .lista-ul--color.lista-salmon li > i:first-of-type
   color: #FF7758
+.lista-salmon > i:first-of-type
+  color: #FF7758
+
 
 .lista-ol--cuadro__vineta
   color: $color-sistema-texto
@@ -82,8 +85,48 @@
   bottom: 6%
   left: 33%
 
+.linea-tiempo-a::before
+  background: #675D84
+.linea-tiempo-a__row::after
+  background: #FF7758
+
+.cuadro-naranja
+  border: 3px solid #FFBA5B
 
 
+.linea-tiempo-a.color-secundario .linea-tiempo-a__icon__container
+  background-color: #FFE9CB
+.linea-tiempo-a.color-secundario .linea-tiempo-a__icon__container::before
+  background-color: #FFE9CB
+
+.backg-white
+  background-color: #FFF
+.slyder__btn
+  background-color: #FF7758
+  color: #FFF
+
+.slyder-a__bullets 
+  bottom: -40px
+.slyder-a__bullets__item--active
+  background-color: #FF7758
+  border-color: #FF7758
+.slyder-a__bullets__item
+  border: 1px solid #FF7758
+
+.questions .tarjeta.tarjeta--blanca
+  transform: scale(1)
+.questions .tarjeta.tarjeta--rosada
+  background-color: #FFCBBF
+  transform: scale(0.9)
+.questions .tarjeta.tarjeta--rosada h4
+  color: #FF7758
+.questions img
+  width: 70px
+  margin: 0 auto
+
+.slyder-b img
+  width: 60px
+  margin: 0 auto
 
 .tabs-b
   border-bottom: 0px
@@ -157,3 +200,5 @@
     position: initial
     width: 100%
     margin-top: 0px
+  .questions .tarjeta.tarjeta--rosada
+    display: none

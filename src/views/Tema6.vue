@@ -32,7 +32,8 @@
             h4.text-center.text-white.mb-3 Objetivos
             p.text-center.text-white Es aquello que pretende alcanzar el plan en un tiempo determinado, los objetivos deben tener un verbo en infinitivo al comienzo y una breve referencia de “cómo” se piensa desarrollar.
       .col-lg-4
-        .nav-holder
+        .nav-holder(@mouseover="mostrarIndicador = false")
+          .indicador--click(v-if="mostrarIndicador")
           img(src="@/assets/curso/tema6-1-image2.png", alt="Actividades o acciones")
           .text
             h4.text-center.text-white.mb-3 Actividades o acciones
@@ -97,6 +98,7 @@
 export default {
   name: 'Tema6',
   data: () => ({
+    mostrarIndicador: true,
     // variables de vue
   }),
   mounted() {
@@ -134,7 +136,7 @@ export default {
   right: 0
   content: ''
   background-color: #FF7758
-  opacity: 0.5
+  opacity: 0.7
   -webkit-transition: all 0.45s ease
   transition: all 0.45s ease
   border-top-left-radius: 16px
@@ -147,7 +149,7 @@ export default {
 .nav-holder:hover:before
   -webkit-transform: translateY(0)
   transform: translateY(0)
-  opacity: 0.8
+  opacity: 0.9
   -webkit-transition-delay: 0.1s
   transition-delay: 0.1s
 
@@ -165,7 +167,6 @@ export default {
     backface-visibility: hidden
     max-width: 100%
     vertical-align: top
-
   p
     margin: 0
     opacity: 0

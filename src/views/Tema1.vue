@@ -19,6 +19,78 @@
 
     p.mb-4(data-aos="fade") Para profundizar en este aspecto una vez  se ingrese a la organización, vale la pena que se realice las siguientes preguntas:
 
+    .tarjeta.tarjeta--gris.p-4.mb-5
+      h3.text-center.mb-lg-4 Questions
+      SlyderA.mb-lg-5.questions
+        .row.justify-content-center
+          .col-md-3.m-4.mb-md-0
+          .col-md-3.m-4.py-lg-5.mb-md-0.tarjeta.tarjeta--blanca.py-5
+            img.mb-4(src='@/assets/curso/tema1-ico1.svg', alt='¿Quién la creó?')
+            h4.text-center ¿Quién la creó?
+          .col-md-3.m-4.py-lg-5.mb-md-0.tarjeta.tarjeta--rosada
+            img.mb-4(src='@/assets/curso/tema1-ico2-1.svg', alt='¿Cuándo fue fundada?')
+            h4.text-center ¿Cuándo fue fundada?
+        div.row.justify-content-center
+          .col-md-3.m-4.mb-md-0.py-lg-5.tarjeta.tarjeta--rosada
+            img.mb-4(src='@/assets/curso/tema1-ico1-1.svg', alt='¿Quién la creó?')
+            h4.text-center ¿Quién la creó?
+          .col-md-3.m-4.mb-md-0.py-lg-5.tarjeta.tarjeta--blanca.py-5
+            img.mb-4(src='@/assets/curso/tema1-ico2.svg', alt='¿Cuándo fue fundada?')
+            h4.text-center ¿Cuándo fue fundada?
+          .col-md-3.m-4.py-lg-5.mb-md-0.tarjeta.tarjeta--rosada
+            img.mb-4(src='@/assets/curso/tema1-ico3-1.svg', alt='¿Cuál fue su propósito inicial?')
+            h4.text-center ¿Cuál fue su propósito inicial?
+        div.row.justify-content-center
+          .col-md-3.m-4.mb-md-0.py-lg-5.tarjeta.tarjeta--rosada
+            img.mb-4(src='@/assets/curso/tema1-ico1-1.svg', alt='¿Cuándo fue fundada?')
+            h4.text-center ¿Cuándo fue fundada?
+          .col-md-3.m-4.mb-md-0.py-lg-5.tarjeta.tarjeta--blanca.py-5
+            img.mb-4(src='@/assets/curso/tema1-ico3.svg', alt='¿Cuál fue su propósito inicial?')
+            h4.text-center ¿Cuál fue su propósito inicial?
+          .col-md-3.m-4.py-lg-5.mb-md-0.tarjeta.tarjeta--rosada
+            img.mb-4(src='@/assets/curso/tema1-ico4-1.svg', alt='¿Cómo ha evolucionado en el tiempo?')
+            h4.text-center ¿Cómo ha evolucionado en el tiempo?
+        div.row.justify-content-center
+          .col-md-3.m-4.mb-md-0.py-lg-5.tarjeta.tarjeta--rosada
+            img.mb-4(src='@/assets/curso/tema1-ico3-1.svg', alt='¿Cuál fue su propósito inicial?')
+            h4.text-center ¿Cuál fue su propósito inicial?
+          .col-md-3.m-4.mb-md-0.py-lg-5.tarjeta.tarjeta--blanca.py-5
+            img.mb-4(src='@/assets/curso/tema1-ico4.svg', alt='¿Cómo ha evolucionado en el tiempo?')
+            h4.text-center ¿Cómo ha evolucionado en el tiempo?
+          .col-md-3.m-4.py-lg-5.mb-md-0.tarjeta.tarjeta--rosada
+            img.mb-4(src='@/assets/curso/tema1-ico5-1.svg', alt='¿Qué actividad económica desarrolla?')
+            h4.text-center ¿Qué actividad económica desarrolla? 
+        div.row.justify-content-center
+          .col-md-3.m-4.mb-md-0.py-lg-5.tarjeta.tarjeta--rosada
+            img.mb-4(src='@/assets/curso/tema1-ico4-1.svg', alt='¿Cómo ha evolucionado en el tiempo?')
+            h4.text-center ¿Cómo ha evolucionado en el tiempo?
+          .col-md-3.m-4.mb-md-0.py-lg-5.tarjeta.tarjeta--blanca.py-5
+            img.mb-4(src='@/assets/curso/tema1-ico5.svg', alt='¿Qué actividad económica desarrolla?')
+            h4.text-center ¿Qué actividad económica desarrolla?
+          .col-md-3.m-4.py-lg-5.mb-md-0.tarjeta.tarjeta--rosada
+            img.mb-4(src='@/assets/curso/tema1-ico6-1.svg', alt='¿Qué misión, visión y objetivos tiene?')
+            h4.text-center ¿Qué misión, visión y objetivos tiene? 
+        div.row.justify-content-center
+          .col-md-3.m-4.mb-md-0.py-lg-5.tarjeta.tarjeta--rosada
+            img.mb-4(src='@/assets/curso/tema1-ico5-1.svg', alt='¿Qué actividad económica desarrolla?')
+            h4.text-center ¿Qué actividad económica desarrolla?
+          .col-md-3.m-4.mb-md-0.py-lg-5.tarjeta.tarjeta--blanca.py-5
+            img.mb-4(src='@/assets/curso/tema1-ico6.svg', alt='¿Qué misión, visión y objetivos tiene? ')
+            h4.text-center ¿Qué misión, visión y objetivos tiene? 
+          .col-md-3.m-4.py-lg-5.mb-md-0.tarjeta.tarjeta--rosada
+            img.mb-4(src='@/assets/curso/tema1-ico7-1.svg', alt='¿Dónde más opera?')
+            h4.text-center ¿Dónde más opera?
+        div.row.justify-content-center
+          .col-md-3.m-4.mb-md-0.py-lg-5.tarjeta.tarjeta--rosada
+            img.mb-4(src='@/assets/curso/tema1-ico6-1.svg', alt='¿Qué misión, visión y objetivos tiene?')
+            h4.text-center ¿Qué misión, visión y objetivos tiene?
+          .col-md-3.m-4.mb-md-0.py-lg-5.tarjeta.tarjeta--blanca.py-5
+            img.mb-4(src='@/assets/curso/tema1-ico7.svg', alt='¿Dónde más opera?')
+            h4.text-center ¿Dónde más opera?     
+          .col-md-3.m-4.mb-md-0.py-lg-5 
+
+
+
     p(data-aos="fade") Normalmente, las preguntas anteriores tienen sus respuestas en la web de la organización, ya que algunos empresarios y normas de transparencia para entidades estatales, invitan a que se presente esta información de forma clara al público. 
     p.mb-4(data-aos="fade") Para poder identificar la dinámica empresarial es importante iniciar, teniendo claro algunos conceptos, a los cuales se les definirá las características más relevantes:
 
