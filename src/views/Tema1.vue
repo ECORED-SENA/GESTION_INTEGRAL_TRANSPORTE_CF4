@@ -101,7 +101,7 @@
           .row.justify-content-center(titulo="Objetivos estratégicos")
             .col-md-3.col-4.px-lg-4.mb-3
               figure
-                img.px-lg-1(src='@/assets/curso/objetivo.svg', alt='Objetivo')
+                img.px-lg-2(src='@/assets/curso/objetivo.svg', alt='Objetivo')
             .col-md-9.col-12.mb-4.mb-md-0
               p Son los que plantean las actividades y los medios con los cuales se pretende desarrollar el fin que dio origen a la creación de la organización; deber ser medibles, claros, factibles y coherentes.          
 
@@ -109,7 +109,7 @@
             .row.justify-content-center
               .col-md-3.col-4.px-lg-4.mb-3
                 figure
-                  img.px-lg-2(src='@/assets/curso/bandera.svg', alt='Bandera')
+                  img.px-lg-3(src='@/assets/curso/bandera.svg', alt='Bandera')
               .col-md-9.col-12.mb-4.mb-md-0
                 p Se puede reconocer como la “razón de ser”, es decir, la descripciónclara de lo que motivó la creación de la empresa, expresando los objetivos que se cumplen por la organización. Se caracteriza por ser precisa, concreta y por guiar a sus colaboradores en el “cumplimiento de los objetivos”.
 
@@ -117,7 +117,7 @@
             .row.justify-content-center
               .col-md-3.col-5.px-lg-4.mb-3
                 figure
-                  img(src='@/assets/curso/vision-2.svg', alt='Visión')
+                  img.px-lg-2(src='@/assets/curso/vision-2.svg', alt='Visión')
               .col-md-9.col-12.mb-4.mb-md-0
                 p Representa la expectativa ideal en un plazo futuro (en tiempo), donde se expone de forma “realista” el crecimiento de la organización, ya sea en la producción, cobertura o alcance, al cual se espera llegar. El objetivo de tener una visión es guiar, motivar e inculcar pertenencia a los colaboradores para que como equipo ayuden a construirla.
 
@@ -125,7 +125,7 @@
             .row.justify-content-center
               .col-md-3.col-5.px-lg-4.mb-3
                 figure
-                  img(src='@/assets/curso/valor.svg', alt='Valores')
+                  img.px-lg-2(src='@/assets/curso/valor.svg', alt='Valores')
               .col-md-9.col-12.mb-4.mb-md-0
                 p Es la agrupación de principios que precisan la estructura, línea de acción, principios éticos y cultura de una organización, se cultivan, se promueven y lo mejor, deben ser el estandarte de los directivos porque con su ejemplo invitan a sus colaboradores a desarrollarlos.
 
@@ -141,7 +141,7 @@
             .row.justify-content-center
               .col-md-3.col-4.px-lg-4.mb-3
                 figure
-                  img.px-lg-2(src='@/assets/curso/manual-2.svg', alt='Manual de identidad o imagen institucional')
+                  img.px-lg-3(src='@/assets/curso/manual-2.svg', alt='Manual de identidad o imagen institucional')
               .col-md-9.col-12.mb-4.mb-md-0
                 p Es un documento mediante el cual se establecen los lineamientos por los cuales, los colaboradores deben presentar y entregar información referente a la empresa como: formatos, cotizaciones, correspondencia, dotaciones y demás elementos que facilitan la distinción de los colaboradores y sus procesos con las demás organizaciones.
 

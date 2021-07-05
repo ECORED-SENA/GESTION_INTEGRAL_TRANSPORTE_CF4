@@ -51,7 +51,9 @@
 
 .color-gradiente
   background: -prefix-linear-gradient(top, #FF7758, #675D84)
-  background: linear-gradient(to bottom, #FF7758, #675D84)
+  background: linear-gradient(10deg,#ff7758,#675d84)
+
+
 
 .tabs-a__tab
   background-color: #675D84
@@ -192,7 +194,12 @@
 .tabs-b__tab:active, .tabs-b__tab:focus, .tabs-b__tab:hover
   background-color: #FFF
 
-
+.column-intro
+  height: 286px
+.column-intro img
+  height: 100%
+  object-fit: cover
+  object-position: center center
 
 
 @media (max-width: $bp-max-md)
@@ -202,3 +209,11 @@
     margin-top: 0px
   .questions .tarjeta.tarjeta--rosada
     display: none
+  .tabs-b__tab:nth-child(odd)
+    border-left: 0px solid #ffffff
+  .tabs-b__tab:last-child
+    border-right: 0px solid #ffffff 
+  .tabs-b__tab:nth-child(-n+2)
+    border-top: 0px solid #ffffff
+  .column-intro
+    height: auto  

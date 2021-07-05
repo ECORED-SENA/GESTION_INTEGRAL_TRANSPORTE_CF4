@@ -34,24 +34,22 @@
           .col-lg-6(data-aos="fade-right")
             .nav-holder(@mouseover="mostrarIndicador = false")
               .indicador--click(v-if="mostrarIndicador")
-              img(src="@/assets/curso/Henry-Fayol.png", alt="Henry Fayol")
+              img(src="@/assets/curso/Henry-Fayol.svg", alt="Henry Fayol")
               .text.align-items-center.p-lg-5.p-4
                 .row.py-lg-5.py-3
                   .col-1.lista-salmon
                     i.fas.fa-square 
                   .col-10
-                    h4 Con sus publicaciones como “Los fundamentos de la teoría administrativa” en 1900 y “Administración industrial y General” de 1930. 
-                h3.text-center.mb-3 Henry Fayol    
+                    h4 Con sus publicaciones como “Los fundamentos de la teoría administrativa” en 1900 y “Administración industrial y General” de 1930.   
           .col-lg-6(data-aos="fade-left")
             .nav-holder
-              img(src="@/assets/curso/Frederick-Taylor.png", alt="Frederick Taylor")
+              img(src="@/assets/curso/Frederick-Taylor.svg", alt="Frederick Taylor")
               .text.align-items-center.p-lg-5.p-4
                 .row.py-lg-5.py-3
                   .col-1.lista-salmon
                     i.fas.fa-square 
                   .col-10
                     h4 Con escritos como el ensayo “los Principios de la Administración científica” y “El Management Científico” producidos en el año de 1911.
-                h3.text-center.mb-3 Frederick Taylor
 
     .row.justify-content-center.mb-5(data-aos="fade")
       .col-lg-10.tarjeta-rosa-linea.px-5.py-4
@@ -234,13 +232,14 @@ export default {
   transition: all 0.45s ease
 
 .nav-holder:before
-  -webkit-transform: translateY(83%)
-  transform: translateY(83%)
+  -webkit-transform: translateY(100%)
+  transform: translateY(100%)
 
 .nav-holder:hover:before
   -webkit-transform: translateY(0)
   transform: translateY(0)
   opacity: 0.8
+  bottom: 50px
   -webkit-transition-delay: 0.1s
   transition-delay: 0.1s
 
