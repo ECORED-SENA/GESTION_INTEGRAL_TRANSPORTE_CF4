@@ -167,7 +167,7 @@
           
     .row.justify-content-center.mb-4(data-aos="fade") 
       .col-lg-10
-        .tarjeta.color-gradiente.py-lg-3.px-lg-5.mb-5
+        .tarjeta.color-primario.py-lg-3.px-lg-5.mb-5
           .row.justify-content-center.align-items-center
             .col-lg-1
             .col-3.col-sm-2.col-lg-2.px-lg-4
