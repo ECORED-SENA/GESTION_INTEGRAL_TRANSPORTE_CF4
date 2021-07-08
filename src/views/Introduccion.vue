@@ -10,6 +10,8 @@
       h1 Introducción
     
     
+    P.mb-5 La gestión del Talento Humano e interacción con el equipo de trabajo es una de las habilidades y competencias que se adquieren con el propósito de hacer más eficiente y eficaz el trabajo asignado. Dentro del presente contenido, se profundizará en las políticas y normativas del talento humano, como también sobre la coordinación y orientación de la operación con el equipo de trabajo y acciones como la evaluación del desempeño, medición de rendimiento y planes de mejora. Estos aspectos, no solo favorecen el mejoramiento continuo de las áreas de trabajo, sino un aspecto muy importante como el clima laboral, porque se propende por respetar los derechos de los trabajadores y valorar los deberes laborales.
+
     .row.background-img.mb-5.py-lg-4
       .col-lg-6
       .col-lg-5.backg-white.p-lg-5.m-lg-4.p-0
