@@ -23,8 +23,9 @@
           figure
             img(src='@/assets/curso/imagen-intro.png', alt='Imagen decorativa')
         .col-lg-5.px-md-4.borde-cuadro.p-4.column-intro
-          h4 La gestión del talento humano es una de las actividades que en los últimos tiempos se ha venido fortaleciendo en el sector empresarial, 
-          p.mb-0 porque se ha logrado establecer que es uno de los motores que permiten el crecimiento y la alta competitividad de la producción en el mercado. Una correcta administración del Talento Humano optimiza el tiempo, la eficacia y la efectividad en el desarrollo de su actividad económica. 
+          p
+            strong.gran La gestión del talento humano es una de las actividades que en los últimos tiempos se ha venido fortaleciendo en el sector empresarial, 
+            | porque se ha logrado establecer que es uno de los motores que permiten el crecimiento y la alta competitividad de la producción en el mercado. Una correcta administración del Talento Humano optimiza el tiempo, la eficacia y la efectividad en el desarrollo de su actividad económica. 
 
     p Mediante el conocimiento y habilidades adquiridas para la gestión del talento humano, se pretende generar procesos autónomos y de trabajo colaborativo permanentes, fortaleciendo el equilibrio de los componentes racionales y emocionales orientados hacia el Desarrollo Humano Integral.
 

@@ -45,7 +45,7 @@
                 figure
                   img(src='@/assets/curso/tema3-ico3.svg', alt='Remuneraciones e incentivos')
               .col-md-9.col-12.mb-4.mb-md-0
-                p Es cierto que las personas trabajan con el propósito de obtener un beneficio económico que le permita suplir sus necesidades básicas y propendan por el mejoramiento de su calidad de vida, por tal razón uno de los aspectos que favorecen la motivación de los colaboradores es la remuneración justa por su trabajo o labor. Los aspectos que favorecen a este punto tienen que ver con la puntualidad de los pagos, con el reconocimiento de su tiempo extra, el pago de sus prestaciones sociales y lo demás contemplado por ley. Por otra parte, algunas organizaciones han considerado realizar incentivos económicos a los colaboradores con mayores rendimientos o comisiones por ventas, esto permite que sean más dedicados a las labores y compitan por el cumplimiento de metas. Hoy en día aparece un nuevo modelo llamado salario emocional, donde no solo esta dado en dinero, sino en preferencias, hobbies o gustos.
+                p Es cierto que las personas trabajan con el propósito de obtener un beneficio económico que le permita suplir sus necesidades básicas y propendan por el mejoramiento de su calidad de vida, por tal razón uno de los aspectos que favorecen la motivación de los colaboradores es la remuneración justa por su trabajo o labor. Los aspectos que favorecen a este punto tienen que ver con la puntualidad de los pagos, con el reconocimiento de su tiempo extra, el pago de sus prestaciones sociales y lo demás contemplado por ley. Por otra parte, algunas organizaciones han considerado realizar incentivos económicos a los colaboradores con mayores rendimientos o comisiones por ventas, esto permite que sean más dedicados a las labores y compitan por el cumplimiento de metas. Hoy en día aparece un nuevo modelo llamado salario emocional, donde no solo está dado en dinero, sino en preferencias, hobbies o gustos.
 
           div(titulo="Desarrollo de la empresa y su talento humano")
             .row.justify-content-center
@@ -94,7 +94,7 @@
     .row.justify-content-center
       .col-lg-8
         .cajon.tarjeta-morada-linea.px-4.py-3.mb-3
-          p.mb-0 Para ampliar este tema, se puede consultar el blog del Señor Oscar Pérez 
+          p.mb-0 Para ampliar este tema, se puede consultar el blog del Señor Óscar Pérez 
             strong “5 nuevas tendencias para la evaluación de desempeño” 
             | referenciado en el material del presente contenido. 
     
@@ -180,7 +180,7 @@
           img(src="@/assets/curso/tema3-1-imagen2.svg", alt="Funciones")  
       .col-lg-10(data-aos="fade-left")
         h4.mb-0 Funciones
-        p Las funciones son las actividades repetitivas que desarrolla la persona a contratar, normalmente establecen los alcances y responsabilidades con las cuales se medirá su desempeño en las evaluaciones que realizará su jefe directo. Quien establece las funciones es quien hace el requerimiento, porque sabe claramente cuáles son los aspectos en los cuales va a contribuir el colaborador. Para la elaboración de las funciones es fundamental definir: ¿qué va a hacer? y ¿cómo lo va a hacer? Ya que se deben informar las herramientas con las que cuenta para desempeñar su cargo correctamente. Las organizaciones se ayudan con la elaboración de un manual de funciones donde se puede visualizar el alcance de todos los cargos. 
+        p Las funciones son las actividades repetitivas que desarrolla la persona a contratar, normalmente establecen los alcances y responsabilidades con las cuales se medirá su desempeño en las evaluaciones que realizará su jefe directo. Quien establece las funciones es quien hace el requerimiento, porque sabe claramente cuáles son los aspectos en los cuales va a contribuir el colaborador. Para la elaboración de las funciones es fundamental definir: ¿qué va a hacer?, y ¿cómo lo va hacer? Ya que se deben informar las herramientas con las que cuenta para desempeñar su cargo correctamente. Las organizaciones se ayudan con la elaboración de un manual de funciones donde se puede visualizar el alcance de todos los cargos. 
 
     .row.justify-content-center.align-items-center
       .col-lg-2.col-6(data-aos="fade-right")
@@ -200,7 +200,7 @@
       .h2 3.2.	Participantes del transporte
 
     p(data-aos="fade") Dentro de la cadena logística, el transporte es importante para identificar los participantes que pueden afectar la operación, ya que la intervención de ellos altera de una u otra manera el costo final del proceso. Hay seis actores o participantes más relevantes en la operación del transporte, de acuerdo con distintos autores, los seis actores se presentan en la siguiente figura 1.
-    p.mb-5(data-aos="fade") En el caso de transporte de carga y su logística, para materializarse se reconocen los siguientes relaciones entre participantes y posterior a este, sus respectivos significados:
+    p.mb-5(data-aos="fade") En el caso de transporte de carga y su logística, para materializarse se reconocen las siguientes relaciones entre participantes y posterior a este, sus respectivos significados:
 
     .row.justify-content-center
       .col-lg-10
@@ -210,10 +210,10 @@
           img.mb-3(src="@/assets/curso/tema3-2-figura2.svg", alt="Relación entre los participantes del transporte")
           figcaption Nota. Bowersox, D., Closs, D. y B Bixby Cooper, M. (2007).  
 
-    AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="fade-down")
+    AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--gris tarjeta--gris2")(data-aos="fade-down")
       .row(titulo="Embarcador y consignatario")
         .col-md-9.mb-4.mb-md-0
-          p Son los interesados en realizar la operación, es decir, de movilizar los artículos o la carga de un lugar (origen) a otro (destino), con unas condiciones: tiempo y costo bajos. Cabe resaltar que los tiempos considerados serán todos aquellos que se empleen en las actividades relacionadas al transporte, como, embalaje, embarque o cargue y descargue, tránsito o tiempo de viaje. La relación de estos dos participantes deberá realizarse de la manera mas cordial y oportuna, cumpliendo cada uno con su parte en el contrato comercial que se acuerda o conviene.
+          p Son los interesados en realizar la operación, es decir, de movilizar los artículos o la carga de un lugar (origen) a otro (destino), con unas condiciones: tiempo y costo bajos. Cabe resaltar que los tiempos considerados serán todos aquellos que se empleen en las actividades relacionadas al transporte, como, embalaje, embarque o cargue y descargue, tránsito o tiempo de viaje. La relación de estos dos participantes deberá realizarse de la manera más cordial y oportuna, cumpliendo cada uno con su parte en el contrato comercial que se acuerda o conviene.
         .col-md-2
           figure
             img(src='@/assets/curso/tema3-2-ico1.svg', alt='Embarcador y consignatario')
@@ -227,7 +227,7 @@
 
       div.row(titulo="El gobierno")
         .col-md-9.mb-4.mb-md-0
-          p Es el encargado de velar porque las relaciones comerciales se lleven de la manera mas justa, es decir, que las tarifas no sobrepasen el punto de equilibrio entre lo que se puede pagar y lo que cuesta el viaje. Son los encargados de promover políticas que regulen, vigilen, controlen el servicio y sus participantes. Es el encargado de invertir en la infraestructura, para que sea adecuada, por esta razón cobra peajes en las vías nacionales, impuestos y algunos costos asociados a los espacios en terminales.
+          p Es el encargado de velar porque las relaciones comerciales se lleven de la manera más justa, es decir, que las tarifas no sobrepasen el punto de equilibrio entre lo que se puede pagar y lo que cuesta el viaje. Son los encargados de promover políticas que regulen, vigilen, controlen el servicio y sus participantes. Es el encargado de invertir en la infraestructura, para que sea adecuada, por esta razón cobra peajes en las vías nacionales, impuestos y algunos costos asociados a los espacios en terminales.
         .col-md-2.px-lg-4
           figure
             img(src='@/assets/curso/tema3-2-ico3.svg', alt='El gobierno')
@@ -316,7 +316,7 @@
               img(src='@/assets/curso/tema3-2-image8.png', alt='El servicio de tráfico marítimo')   
           .col-xl-7
             h4 El servicio de tráfico marítimo
-            p Son quienes gestionan las operaciones de tráfico marítimo. Se relaciona con el controlador aéreo ya que coordina entradas y salidas del puerto o terminal. Presenta informes del clima y demás aspectos que puedan afectar la operación.
+            p Son quienes gestionan las operaciones de tráfico marítimo. Se relaciona con el controlador aéreo, ya que coordina entradas y salidas del puerto o terminal. Presenta informes del clima y demás aspectos que puedan afectar la operación.
                  
 
     h3(data-aos="fade-right") Participantes en el transporte aéreo
@@ -406,7 +406,7 @@
               li
                 i.fas.fa-square
                 p.mb-0 
-                  strong Operadores o conductores de los Vehículos: 
+                  strong Operadores o conductores de los vehículos: 
                   | pueden tener vehículos propios, sin embargo, deben estar inscritos en una empresa de transporte legalmente constituida. 
               li
                 i.fas.fa-square
@@ -451,7 +451,7 @@
               li
                 i.fas.fa-square
                 p.mb-0 
-                  strong Operador Logístico: 
+                  strong Operador logístico: 
                   | es una empresa que se encarga de diseñar, organizar, gestionar y controla los procesos de las fases de la cadena de suministro. 
               li
                 i.fas.fa-square
@@ -460,9 +460,9 @@
                   | las empresas especializadas en intermediar en la contratación de transportes de mercancías, como organización auxiliar interpuesta entre los usuarios y los transportistas.
 
 
-    h3(data-aos="fade-right") Participantes en el transporte terrestre Férreo
+    h3(data-aos="fade-right") Participantes en el transporte terrestre férreo
 
-    p.mb-5(data-aos="fade") De acuerdo con el Plan maestro ferroviario del gobierno nacional, los actores con los cuales se está reactivando este sector son: 
+    p.mb-5(data-aos="fade") De acuerdo con el plan maestro ferroviario del gobierno nacional, los actores con los cuales se está reactivando este sector son: 
 
     TabsA.color-acento-contenido.mb-5(data-aos="fade")
       .tarjeta.color-naranja.p-4(titulo="Administrador de la infraestructura ")
@@ -504,7 +504,7 @@
               img(src='@/assets/curso/tema-3-2-image3-5.png', alt='Operador ferroviario')
           .col-xl-7
             h4 Operador ferroviario
-            p Persona natural o jurídica interesada en contratar servicios de transporte ferroviario para movilizar una mercancía de un punto fijo a otro.
+            p Empresa que utiliza la capacidad de una infraestructura ferroviaria para llevar a cabo la prestación de un servicio de transporte ferroviario.
 
 
 

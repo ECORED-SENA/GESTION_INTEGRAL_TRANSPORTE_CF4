@@ -111,7 +111,7 @@
                 figure
                   img.px-lg-3(src='@/assets/curso/bandera.svg', alt='Bandera')
               .col-md-9.col-12.mb-4.mb-md-0
-                p Se puede reconocer como la “razón de ser”, es decir, la descripciónclara de lo que motivó la creación de la empresa, expresando los objetivos que se cumplen por la organización. Se caracteriza por ser precisa, concreta y por guiar a sus colaboradores en el “cumplimiento de los objetivos”.
+                p Se puede reconocer como la “razón de ser”, es decir, la descripción clara de lo que motivó la creación de la empresa, expresando los objetivos que se cumplen por la organización. Se caracteriza por ser precisa, concreta y por guiar a sus colaboradores en el “cumplimiento de los objetivos”.
 
           div(titulo="Visión")
             .row.justify-content-center
@@ -158,7 +158,7 @@
           .col-lg-5.mb-4
             p 
               strong Organigrama
-            p.mb-0 Gráfico empleado para reflejar la estructura jerárquica de una empresa, su organización y la relación directiva entre los diferentes departamentos
+            p.mb-0 Gráfico empleado para reflejar la estructura jerárquica de una empresa, su organización y la relación directiva entre los diferentes departamentos.
           .col-lg-6
             figure
               img.img-flotante(src="@/assets/curso/organigrama.svg", alt="organigrama")    
@@ -167,7 +167,7 @@
           
     .row.justify-content-center.mb-4(data-aos="fade") 
       .col-lg-10
-        .tarjeta.color-primario.py-lg-3.px-lg-5.mb-5
+        .tarjeta.color-gradiente.py-lg-3.px-lg-5.mb-5
           .row.justify-content-center.align-items-center
             .col-lg-1
             .col-3.col-sm-2.col-lg-2.px-lg-4
@@ -176,8 +176,8 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.texto-blanco
                   h3.mb-1 Organigrama
-                  p.mb-0.text-small A continuación, se presenta un esquema ejemplo de 
-                  p.text-small un organigrama.
+                  p.mb-0.text-small Representación gráfica de la estructura organizativa  
+                  p.text-small interna de la empresa.
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/CF4-ejemplo_de_organigrama.pdf')" target="_blank")
                     span Descargar
@@ -217,7 +217,7 @@
       .tarjeta.color-naranja.p-4(titulo="Planificación estratégica")
         .row
           .col-xl-8.mb-4
-            p Está relacionada con el uso eficiente de los recursos con los que se cuenta para la elaboración del producto final. La optimización de los recursos, económicos, financieros, humanos, materiales, tecnológicos y su interacción de forma adecuada, permite la implementación de estrategias que vuelvan sostenibles a las organizaciones, es decir, si se presentan perdidas, que estas no afecten la operación y puedan considerarse como un mínimo daño colateral. La plantificación permite crear ciclos de retroalimentación que garantice la mejora continua. 
+            p Está relacionada con el uso eficiente de los recursos con los que se cuenta para la elaboración del producto final. La optimización de los recursos, económicos, financieros, humanos, materiales, tecnológicos y su interacción de forma adecuada, permite la implementación de estrategias que vuelvan sostenibles a las organizaciones, es decir, si se presentan pérdidas, que estas no afecten la operación y puedan considerarse como un mínimo daño colateral. La planificación permite crear ciclos de retroalimentación que garantice la mejora continua. 
           .col-xl-4
             figure
               img(src='@/assets/curso/planificación-estrategica.svg', alt='Planificación estratégica')

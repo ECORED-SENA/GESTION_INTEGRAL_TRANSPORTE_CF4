@@ -78,7 +78,7 @@
 
       div.row.justify-content-center(titulo="2. Limitación de la producción")
         .col-md-9.mb-4.mb-md-0
-          p Como directivo debe conocer el tiempo justo de la producción, es decir, no puede simplemente considerar el tiempo de trabajo y la capacidad de producción de manera empírica, porque debe haber un equilibrio entre la capacidad, la cantidad y los requerimientos de producción, además, es indispensable establecer el ritmo de trabajo, identificar cómo funcionan y trabajan los colaboradores. En ocasiones hay personas que se toman más tiempo en desarrollar una tarea pero son más precisos, mientras que otros que son más rápidos pueden cometer imprudencias. El empresario debe propender por el uso de técnicas que eviten la pereza en sus colaboradores ya que muchas veces, los oficios repetitivos tienen a ser monótonos.
+          p Como directivo debe conocer el tiempo justo de la producción, es decir, no puede simplemente considerar el tiempo de trabajo y la capacidad de producción de manera empírica, porque debe haber un equilibrio entre la capacidad, la cantidad y los requerimientos de producción, además, es indispensable establecer el ritmo de trabajo, identificar cómo funcionan y trabajan los colaboradores. En ocasiones hay personas que se toman más tiempo en desarrollar una tarea, pero son más precisos, mientras que otros que son más rápidos pueden cometer imprudencias. El empresario debe propender por el uso de técnicas que eviten la pereza en sus colaboradores, ya que muchas veces, los oficios repetitivos tienen a ser monótonos.
         .col-md-2.col-4.px-lg-4
           figure
             img.px-lg-1(src='@/assets/curso/tema2-2-ico2.svg', alt='2. Limitación de la producción')
@@ -174,19 +174,19 @@ export default {
     mostrarIndicador: true,
     datosLineaTiempoC: [
       {
-        icono: require('@/assets/curso/tema2-2-ico1.svg'),
+        icono: require('@/assets/curso/datos-2.svg'),
         texto: '1. El estudio y organización científica del trabajo',
       },
       {
-        icono: require('@/assets/curso/tema2-2-ico2.svg'),
+        icono: require('@/assets/curso/rompecabezas.svg'),
         texto: '2. Selección y entrenamiento de los colaboradores',
       },
       {
-        icono: require('@/assets/curso/tema2-2-ico3.svg'),
+        icono: require('@/assets/curso/liderazgo-2.svg'),
         texto: '3. Acción cooperativa entre directivos y operarios',
       },
       {
-        icono: require('@/assets/curso/tema2-2-ico4.svg'),
+        icono: require('@/assets/curso/jefe-2.svg'),
         texto:
           '4. Responsabilidad y especialización de los superiores en la planificación del trabajo',
       },

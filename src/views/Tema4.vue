@@ -46,7 +46,7 @@
               img(src='@/assets/curso/tema4-1-imagen2.png', alt='Autoevaluación')
           .col-md-6
             h4 Autoevaluación
-            p Como su propia palabra lo indica, es la percepción personal de su propio desempeño, es importante este tipo de evaluación ya que invita a los colaboradores a que observen y reflexionen de forma personal sus características, considerando los parámetros establecidos por el perfil y las funciones que desarrolla. Lo más complejo de este tipo de evaluación es lograr que las personas la diligencien de forma adecuada y sean honestos. Las características de este tipo de evaluación son: debe tener periodicidad, puntos a evaluar, presentación comprensible.
+            p Como su propia palabra lo indica, es la percepción personal de su propio desempeño, es importante este tipo de evaluación, ya que invita a los colaboradores a que observen y reflexionen de forma personal sus características, considerando los parámetros establecidos por el perfil y las funciones que desarrolla. Lo más complejo de este tipo de evaluación es lograr que las personas la diligencien de forma adecuada y sean honestos. Las características de este tipo de evaluación son: debe tener periodicidad, puntos a evaluar, presentación comprensible.
 
       .py-4.py-md-5(titulo="Evaluaciones 180° y 360°" :icono="require('@/assets/curso/tema4-1-icono3.svg')")
         .row
