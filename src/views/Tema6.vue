@@ -29,20 +29,23 @@
         .nav-holder
           img(src="@/assets/curso/tema6-1-image1.png", alt="Objetivos")
           .text
-            h4.text-center.text-white.mb-3 Objetivos
+            p.text-center.text-white.mb-3.h4 
+              strong Objetivos
             p.text-center.text-white Es aquello que pretende alcanzar el plan en un tiempo determinado, los objetivos deben tener un verbo en infinitivo al comienzo y una breve referencia de “cómo” se piensa desarrollar.
       .col-lg-4
         .nav-holder(@mouseover="mostrarIndicador = false")
           .indicador--click(v-if="mostrarIndicador")
           img(src="@/assets/curso/tema6-1-image2.png", alt="Actividades o acciones")
           .text
-            h4.text-center.text-white.mb-3 Actividades o acciones
+            p.text-center.text-white.mb-3.h4 
+              strong Actividades o acciones
             p.text-center.text-white De forma concreta se establecen las actividades para mejorar. Todas estas actividades o acciones propuestas deben tener evidencia de su desarrollo: formatos de asistencia a sensibilizaciones, fotografías, informes, videos. 
       .col-lg-4
         .nav-holder
           img(src="@/assets/curso/tema6-1-image3.png", alt="Responsable")
           .text
-            h4.text-center.text-white.mb-3 Responsable
+            p.text-center.text-white.mb-3.h4 
+              strong Responsable
             p.text-center.text-white Se relaciona a la persona encargada de validar el cumplimiento de las acciones, recolectar las evidencias y los tiempos.
 
     .row.mb-5.justify-content-center(data-aos="fade-down")
@@ -50,13 +53,15 @@
         .nav-holder
           img(src="@/assets/curso/tema6-1-image4.png", alt="Cronograma")
           .text
-            h4.text-center.text-white.mb-3 Cronograma
+            p.text-center.text-white.mb-3.h4
+              strong Cronograma
             p.text-center.text-white Establece el tiempo en el cual se desarrollará el plan y presenta los plazos por acciones para su seguimiento y ejecución. 
       .col-lg-4
         .nav-holder
           img(src="@/assets/curso/tema6-1-image5.png", alt="Indicadores")
           .text
-            h4.text-center.text-white.mb-1 Indicadores
+            p.text-center.text-white.mb-3.h4
+              strong Indicadores
             p.text-center.text-white Como se expuso anteriormente, son los medios que permiten medir de forma objetiva los resultados, dentro del plan de mejora, puede ser el tiempo, cantidad de productos entregables, instalación o implementación de algo. Se pueden representar en avance de porcentaje o con calificaciones.
      
 
@@ -173,7 +178,7 @@ export default {
     margin: 0
     opacity: 0
 
-.nav-holder h4
+.nav-holder .h4
   margin: 0
   opacity: 1
 

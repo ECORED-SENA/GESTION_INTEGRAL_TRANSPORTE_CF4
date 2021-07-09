@@ -37,19 +37,17 @@
               img(src="@/assets/curso/Henry-Fayol.svg", alt="Henry Fayol", onclick="")
               .text.align-items-center.p-lg-5.p-4(onclick="")
                 .row.py-lg-5.py-3(onclick="")
-                  .col-1.lista-salmon
-                    i.fas.fa-square 
-                  .col-10
-                    h4 Con sus publicaciones como “Los fundamentos de la teoría administrativa” en 1900 y “Administración industrial y General” de 1930.   
+                  .col-12
+                    p 
+                      strong Con sus publicaciones como “Los fundamentos de la teoría administrativa” en 1900 y “Administración industrial y General” de 1930.   
           .col-lg-6(data-aos="fade-left")
             .nav-holder(onclick="")
               img(src="@/assets/curso/Frederick-Taylor.svg", alt="Frederick Taylor", onclick="")
               .text.align-items-center.p-lg-5.p-4(onclick="")
                 .row.py-lg-5.py-3(onclick="")
-                  .col-1.lista-salmon
-                    i.fas.fa-square 
-                  .col-10
-                    h4 Con escritos como el ensayo “los Principios de la Administración científica” y “El Management Científico” producidos en el año de 1911.
+                  .col-12
+                    p 
+                      strong Con escritos como el ensayo “los Principios de la Administración científica” y “El Management Científico” producidos en el año de 1911.
 
     .row.justify-content-center.mb-5(data-aos="fade")
       .col-lg-10.tarjeta-rosa-linea.px-5.py-4
@@ -120,42 +118,25 @@
               .indicador--click(v-if="mostrarIndicador")
               img(src="@/assets/curso/ventajas.svg", alt="Ventajas")
               .text.p-5
-                h4.mb-3 Ventajas
-                ul.lista-ul--color.lista-morada
-                  li
-                    i.fas.fa-square
-                    p.mb-0 Cada colaborador produce su trabajo con mayor eficiencia.
-                  li
-                    i.fas.fa-square
-                    p.mb-0 Se motiva con una remuneración justa.
-                  li
-                    i.fas.fa-square
-                    p.mb-0 Promueve el desarrollo de los colaboradores con la capacitación continua y posibilidades de ascenso.
-                  li
-                    i.fas.fa-square
-                    p.mb-0 Se logra que el colaborador se especialice en su oficio.
-                  li
-                    i.fas.fa-square
-                    p.mb-0 Se logra definir cuando es trabajo de producción intelectual o manual.
-                  li
-                    i.fas.fa-square
-                    p.mb-0 Se logran los mejores resultados cuando se distribuye el trabajo.       
+                p.mb-3 
+                  strong Ventajas
+                p.mb-0 - Cada colaborador produce su trabajo con mayor eficiencia.
+                p.mb-0 - Se motiva con una remuneración justa.
+                p.mb-0 - Promueve el desarrollo de los colaboradores con la capacitación continua y posibilidades de ascenso.
+                p.mb-0 - Se logra que el colaborador se especialice en su oficio.
+                p.mb-0 - Se logra definir cuando es trabajo de producción intelectual o manual.
+                p.mb-0 - Se logran los mejores resultados cuando se distribuye el trabajo. 
+                  
                   
           .col-lg-6(data-aos="fade-left")
             .nav-holder3
               img(src="@/assets/curso/desventajas.svg", alt="Desventajas")
               .text.p-5
-                h4.mb-3 Desventajas
-                ul.lista-ul--color.lista-salmon
-                  li
-                    i.fas.fa-square
-                    p.mb-0 La línea de comunicación es descendente, es decir de los directivos a sus colaboradores, sin oportunidad de recibir opinión de los colaboradores.
-                  li
-                    i.fas.fa-square
-                    p.mb-0 Se puede perder la “unidad de mando” que es recibir órdenes de un superior, si se pierde genera conflictos entre los compañeros, porque siempre estará la necesidad de la presencia del líder.
-                  li
-                    i.fas.fa-square
-                    p.mb-0 Se promueve el individualismo queriendo surgir o reflejar mejor eficiencia.
+                p.mb-3 
+                  strong Desventajas
+                p.mb-0 - La línea de comunicación es descendente, es decir de los directivos a sus colaboradores, sin oportunidad de recibir opinión de los colaboradores.
+                p.mb-0 - Se puede perder la “unidad de mando” que es recibir órdenes de un superior, si se pierde genera conflictos entre los compañeros, porque siempre estará la necesidad de la presencia del líder.
+                p.mb-0 - Se promueve el individualismo queriendo surgir o reflejar mejor eficiencia.
                       
 
     p.mb-4(data-aos="fade") Para entrar en materia con la temática principal del presente contenido, se continuará con el estudio de la administración específicamente para el talento humano. 
@@ -254,8 +235,9 @@ export default {
   img
     backface-visibility: hidden
     vertical-align: top
-  h4, i
+  p, i
     opacity: 0
+    text-align: center
 
 .nav-holder h3
     margin: 0
@@ -263,7 +245,7 @@ export default {
     margin-top: 25%
 
 .nav-holder:hover
-  h4, i
+  p, i
     opacity: 1
     -webkit-transition-delay: 0.2s
     transition-delay: 0.2s
