@@ -34,18 +34,18 @@
           .col-lg-6(data-aos="fade-right")
             .nav-holder(@mouseover="mostrarIndicador = false", onclick="")
               .indicador--click(v-if="mostrarIndicador")
-              img(src="@/assets/curso/Henry-Fayol.svg", alt="Henry Fayol")
-              .text.align-items-center.p-lg-5.p-4
-                .row.py-lg-5.py-3
+              img(src="@/assets/curso/Henry-Fayol.svg", alt="Henry Fayol", onclick="")
+              .text.align-items-center.p-lg-5.p-4(onclick="")
+                .row.py-lg-5.py-3(onclick="")
                   .col-1.lista-salmon
                     i.fas.fa-square 
                   .col-10
                     h4 Con sus publicaciones como “Los fundamentos de la teoría administrativa” en 1900 y “Administración industrial y General” de 1930.   
           .col-lg-6(data-aos="fade-left")
             .nav-holder(onclick="")
-              img(src="@/assets/curso/Frederick-Taylor.svg", alt="Frederick Taylor")
-              .text.align-items-center.p-lg-5.p-4
-                .row.py-lg-5.py-3
+              img(src="@/assets/curso/Frederick-Taylor.svg", alt="Frederick Taylor", onclick="")
+              .text.align-items-center.p-lg-5.p-4(onclick="")
+                .row.py-lg-5.py-3(onclick="")
                   .col-1.lista-salmon
                     i.fas.fa-square 
                   .col-10
