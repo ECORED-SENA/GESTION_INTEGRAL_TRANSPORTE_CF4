@@ -167,7 +167,7 @@
           
     .row.justify-content-center.mb-4(data-aos="fade") 
       .col-lg-10
-        .tarjeta.color-gradiente.py-lg-3.px-lg-5.mb-5
+        .tarjeta.color-gradiente.py-lg-3.px-lg-5.mb-5.p-3
           .row.justify-content-center.align-items-center
             .col-lg-1
             .col-3.col-sm-2.col-lg-2.px-lg-4
@@ -201,31 +201,31 @@
 
     TabsA.color-acento-contenido.mb-5(data-aos="fade")
       .tarjeta.color-naranja.p-4(titulo="Clima organizacional")
-        .row
+        .row.justify-content-center
           .col-xl-8.mb-4
             p Se puede entender como el ambiente laboral que resulta de la continua interacción entre colaboradores dentro de sus entornos laborales, ya sean presenciales o virtuales. Es importante que los directivos, generen estas buenas dinámicas, para propender no solo con el sentido de pertenencia hacia la organización, sino liderazgo, compromiso y bienestar, permitiendo alcanzar las metas con colaboradores dinámicos y satisfechos. 
-          .col-xl-4
+          .col-xl-4.col-4
             figure
               img(src='@/assets/curso/clima-organizacional.svg', alt='Clima organizacional')
       .tarjeta.color-naranja.p-4(titulo="Trabajo colaborativo")
-        .row
+        .row.justify-content-center
           .col-xl-8.mb-4
             p Se refiere a la interacción con su equipo de trabajo, a veces creer que “las cosas resultan mejor cuando se trabaja solo”, no permite que se potencialicen las capacidades y habilidades del grupo de trabajo. El propósito debe ser el bien común. Colaborar y trabajar mancomunadamente, permite que haya más eficiencia en los resultados. No olvidar que el trabajo en equipo, debe ser dinámico y descentralizado, con conocimientos y aprendizaje constante, permitiendo que la información no solo sea manejada por una sola persona, sino por varios, para el día que falte un miembro, la organización no se paralice.          
-          .col-xl-4
+          .col-xl-4.col-4
             figure
               img(src='@/assets/curso/trabajo-colaborativo.svg', alt='Trabajo colaborativo')
       .tarjeta.color-naranja.p-4(titulo="Planificación estratégica")
-        .row
+        .row.justify-content-center
           .col-xl-8.mb-4
             p Está relacionada con el uso eficiente de los recursos con los que se cuenta para la elaboración del producto final. La optimización de los recursos, económicos, financieros, humanos, materiales, tecnológicos y su interacción de forma adecuada, permite la implementación de estrategias que vuelvan sostenibles a las organizaciones, es decir, si se presentan pérdidas, que estas no afecten la operación y puedan considerarse como un mínimo daño colateral. La planificación permite crear ciclos de retroalimentación que garantice la mejora continua. 
-          .col-xl-4
+          .col-xl-4.col-4
             figure
               img(src='@/assets/curso/planificación-estrategica.svg', alt='Planificación estratégica')
       .tarjeta.color-naranja.p-4(titulo="Administración de los recursos")
-        .row
+        .row.justify-content-center
           .col-xl-8.mb-4
             p Se relaciona a la gestión eficiente y eficaz de los recursos. Va de la mano con la planeación estratégica.        
-          .col-xl-4
+          .col-xl-4.col-4
             figure
               img(src='@/assets/curso/admon-de-recursos.svg', alt='Administración de los recursos')          
 

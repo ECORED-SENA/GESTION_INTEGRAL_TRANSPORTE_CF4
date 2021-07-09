@@ -199,12 +199,6 @@ strong.gran
 .tabs-b__tab:active, .tabs-b__tab:focus, .tabs-b__tab:hover
   background-color: #FFF
 
-.column-intro
-  height: 286px
-.column-intro img
-  height: 100%
-  object-fit: cover
-  object-position: center center
 
 
 @media (max-width: $bp-max-md)
@@ -220,5 +214,22 @@ strong.gran
     border-right: 0px solid #ffffff 
   .tabs-b__tab:nth-child(-n+2)
     border-top: 0px solid #ffffff
-  .column-intro
-    height: auto  
+
+
+
+.color
+  &__borde--contenido
+    border-color: $color-acento-contenido !important
+    &::before
+      background-color: $color-acento-contenido
+.contenedor-texto
+  height: 100%
+  border: 3px solid 
+.bs
+  --bs-gutter-x: none !important
+.contenedor-intro        
+  height: 100%
+.contenedor-img img
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;  

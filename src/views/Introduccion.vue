@@ -14,21 +14,23 @@
 
     .row.background-img.mb-5.py-lg-4
       .col-lg-6
-      .col-lg-5.backg-white.p-lg-5.m-lg-4.p-0
-        SlyderE.m-lg-0.mb-3.p-lg-0.p-4(:datos="datosSlyder")
+      .col-lg-5.backg-white.p-lg-4.m-lg-4.m-md-1.p-0.p-md-3
+        SlyderE.m-lg-0.mb-3.p-lg-0.p-4.p-md-2(:datos="datosSlyder")
 
 
     p#intro.mb-5 Una vez se logra vincular a una organización (pública o privada), una de las tareas primordiales es conocer a fondo su funcionamiento, la coordinación y responsables de ciertas actividades con las que se puede involucrar laboralmente, directa o transversalmente. Asimismo, la interacción de los equipos de trabajo de los distintos departamentos o áreas con los que cuenta la empresa, contribuye en que la articulación y empalme de las responsabilidades, se desarrolle de forma organizada y óptima con un solo fin: la visión y los objetivos de la empresa. 
 
-    .row.justify-content-center.mb-5.align-items-center
-        .col-lg-5.p-md-0.column-intro
-          figure
-            img(src='@/assets/curso/imagen-intro.png', alt='Imagen decorativa')
-        .col-lg-5.px-md-4.borde-cuadro.p-4.column-intro
+    .row.justify-content-center.mb-5.bs.contenedor-intro
+      .col-lg-5.contenedor-img
+        img(src='@/assets/curso/imagen-intro.png', alt='Imagen decorativa')
+      .col-lg-5
+        .contenedor-texto.color__borde--contenido.p-4.align-items-center.d-flex
           p
             strong.gran La gestión del talento humano es una de las actividades que en los últimos tiempos se ha venido fortaleciendo en el sector empresarial, 
             | porque se ha logrado establecer que es uno de los motores que permiten el crecimiento y la alta competitividad de la producción en el mercado. Una correcta administración del Talento Humano optimiza el tiempo, la eficacia y la efectividad en el desarrollo de su actividad económica. 
 
+
+         
     p Mediante el conocimiento y habilidades adquiridas para la gestión del talento humano, se pretende generar procesos autónomos y de trabajo colaborativo permanentes, fortaleciendo el equilibrio de los componentes racionales y emocionales orientados hacia el Desarrollo Humano Integral.
 
 </template>
