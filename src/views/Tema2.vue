@@ -118,7 +118,7 @@
             .nav-holder2(@mouseover="mostrarIndicador = false")
               .indicador--click(v-if="mostrarIndicador")
               img(src="@/assets/curso/ventajas.svg", alt="Ventajas")
-              .text.p-5
+              .text.px-lg-5.p-4
                 p.mb-3 
                   strong Ventajas
                 p.mb-0 - Cada colaborador produce su trabajo con mayor eficiencia.
@@ -126,13 +126,12 @@
                 p.mb-0 - Promueve el desarrollo de los colaboradores con la capacitación continua y posibilidades de ascenso.
                 p.mb-0 - Se logra que el colaborador se especialice en su oficio.
                 p.mb-0 - Se logra definir cuando es trabajo de producción intelectual o manual.
-                p.mb-0 - Se logran los mejores resultados cuando se distribuye el trabajo. 
-                  
+                p.mb-0 - Se logran los mejores resultados cuando se distribuye el trabajo.   
                   
           .col-lg-6(data-aos="fade-left")
             .nav-holder3
               img(src="@/assets/curso/desventajas.svg", alt="Desventajas")
-              .text.p-5
+              .text.px-lg-5.p-4
                 p.mb-3 
                   strong Desventajas
                 p.mb-0 - La línea de comunicación es descendente, es decir de los directivos a sus colaboradores, sin oportunidad de recibir opinión de los colaboradores.
@@ -331,10 +330,20 @@ export default {
   .text
     top: 0
   h4, p, i, li, ul
-    opacity: 1;
-    -webkit-transition-delay: 0.2s;
-    -moz-transition-delay: 0.2s;
-    transition-delay: 0.2s;
+    opacity: 1
+    -webkit-transition-delay: 0.2s
+    -moz-transition-delay: 0.2s
+    transition-delay: 0.2s
+
+
+@media (max-width: $bp-max-md)
+  .nav-holder2, .nav-holder3
+    height: 410px
+  .nav-holder2 img, .nav-holder3 img
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+
 
 .nav-holder3
   color: #FFF
