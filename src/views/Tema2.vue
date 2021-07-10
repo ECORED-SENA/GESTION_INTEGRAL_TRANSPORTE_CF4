@@ -23,7 +23,8 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-10
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/IovF8cLnqMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
 
     p(data-aos="fade") Las necesidades básicas del ser humano dieron pie a la creación de ciertas actividades que permitieron mejorar la calidad de vida; actividades como recolectar alimentos, adecuar un espacio para descansar y proteger a su familia de los depredadores, cazar animales para alimentarse, protegerse del clima; sumados a aspectos como la necesidad de elegir a un líder o tomar el liderazgo para organizar a las comunidades, también causaron que el ser humano conociera la administración desde el comienzo del establecimiento de la sociedad. Con la evolución y establecimiento de clanes, luego poblaciones y ciudades, nacen aspectos como la democracia y el bien común, por ende, se comienzan a seleccionar líderes eficientes que propendan por ayudar el crecimiento de la economía, de ahí nace la necesidad de intercambiar comercialmente productos, con los cuales, por diferentes razones no pueden producirlos directamente como: insumos, telas, alimentos, metales, entre otros.
     p.mb-4(data-aos="fade") En la era contemporánea, surgen autores como:
@@ -211,6 +212,7 @@ export default {
   right: 0
   content: ''
   background-color: #FFBA5B
+  z-index: 888
   opacity: 0.7
   -webkit-transition: all 0.45s ease
   -moz-transition: all 0.45s ease
@@ -238,10 +240,11 @@ export default {
     bottom: 0px
     left: 0px
     right: 0px
-    z-index: 100
+    z-index: 999
   img
     backface-visibility: hidden
     vertical-align: top
+    z-index: 0
   p, i
     opacity: 0
     text-align: center
@@ -284,6 +287,7 @@ export default {
   right: 0
   content: ''
   background-color: #F2EDFF
+  z-index: 888
   opacity: 0.8
   -webkit-transition: all 0.45s ease
   -moz-transition: all 0.45s ease
@@ -313,10 +317,12 @@ export default {
     z-index: 100
     bottom: 0
     padding: 1em
+    z-index: 999
   img
     backface-visibility: hidden
     max-width: 100%
     vertical-align: top
+    z-index: 0
   p, h4, i, li, ul
     margin: 0
     opacity: 0
@@ -356,6 +362,7 @@ export default {
   right: 0
   content: ''
   background-color: #FFCBBF
+  z-index: 888
   opacity: 0.8
   -webkit-transition: all 0.45s ease
   -moz-transition: all 0.45s ease
@@ -382,13 +389,14 @@ export default {
     bottom: 0px
     left: 0px
     right: 0px
-    z-index: 100
+    z-index: 999
     bottom: 0
     padding: 1em
   img
     backface-visibility: hidden
     max-width: 100%
     vertical-align: top
+    z-index: 0
   p, h4, i, li, ul
     margin: 0
     opacity: 0

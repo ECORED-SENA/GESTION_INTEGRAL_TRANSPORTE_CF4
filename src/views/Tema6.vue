@@ -147,8 +147,10 @@ export default {
   content: ''
   background-color: #FF7758
   opacity: 0.7
+  z-index: 888
   -webkit-transition: all 0.45s ease
   -moz-transition: all 0.45s ease
+  -ms-transition: all 0.45s ease
   transition: all 0.45s ease
   border-top-left-radius: 16px
   border-top-right-radius: 16px
@@ -174,13 +176,14 @@ export default {
     bottom: 0px
     left: 0px
     right: 0px
-    z-index: 100
+    z-index: 999
     bottom: 0
     padding: 1em
   img
     backface-visibility: hidden
     max-width: 100%
     vertical-align: top
+    z-index: 0
   p
     margin: 0
     opacity: 0
