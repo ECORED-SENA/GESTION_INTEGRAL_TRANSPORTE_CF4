@@ -318,6 +318,22 @@
             h4 El servicio de tráfico marítimo
             p Son quienes gestionan las operaciones de tráfico marítimo. Se relaciona con el controlador aéreo, ya que coordina entradas y salidas del puerto o terminal. Presenta informes del clima y demás aspectos que puedan afectar la operación.
                  
+    .row.justify-content-center.mb-4(data-aos="fade") 
+      .col-lg-10
+        .tarjeta.color-gradiente.py-lg-3.px-lg-5.mb-5.p-3
+          .row.justify-content-center.align-items-center
+            .col-lg-1
+            .col-3.col-sm-2.col-lg-2.px-lg-2
+              img(src="@/assets/curso/tema3-2-ico1.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0.texto-blanco
+                  h3.mb-1 Participantes en el transporte marítimo y fluvial
+                  p.mb-0.text-small Los equipos en cualquier organización son fundamentales para la consecución de objetivos, es así que para el transporte fluvial y marítimo existen roles que garantizan el cumplimiento de las metas.
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Participantes_transporte_maritimo_y_fluvial.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download             
 
     h3(data-aos="fade-right") Participantes en el transporte aéreo
 

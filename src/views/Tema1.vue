@@ -89,6 +89,24 @@
             h4.text-center ¿Dónde más opera?     
           .col-md-3.m-4.mb-md-0.py-lg-5 
 
+    .row.justify-content-center.mb-4(data-aos="fade") 
+      .col-lg-10
+        .tarjeta.color-gradiente.py-lg-3.px-lg-5.mb-5.p-3
+          .row.justify-content-center.align-items-center
+            .col-lg-1
+            .col-3.col-sm-2.col-lg-2.px-lg-4
+              img.px-lg-2(src="@/assets/curso/tema1-ico1.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0.texto-blanco
+                  h3.mb-1 Preguntas dinámica empresarial
+                  p.mb-0.text-small Para el reconocimiento y contextualización de la dinámica 
+                  p.mb-0.text-small empresarial, se hace necesario realizar una seria de preguntas 
+                  p.mb-0.text-small y así conocer y reconocer el ADN de la organización a la cual se pertenece.
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/DINAMICA_EMPRESARIAL_PREGUNTAS.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
 
 
     p(data-aos="fade") Normalmente, las preguntas anteriores tienen sus respuestas en la web de la organización, ya que algunos empresarios y normas de transparencia para entidades estatales, invitan a que se presente esta información de forma clara al público. 
