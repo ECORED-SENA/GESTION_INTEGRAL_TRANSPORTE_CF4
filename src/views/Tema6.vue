@@ -74,7 +74,7 @@
             figure.mb-5(data-aos="fade")
               img(src="@/assets/curso/imagen6-1.svg", alt="Anexos")
           .col-lg-6(data-aos="fade-left")
-            a.anexo.mb-4(:href="obtenerLink('/downloads/Formato_plan_de_mejoramiento.xls')" target="_blank")
+            a.anexo.mb-4(:href="obtenerLink('downloads/Formato_plan_de_mejoramiento.xls')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-xls.svg")
               .anexo__texto
@@ -82,7 +82,7 @@
                   strong Anexo. 
                   | Formato plan de mejoramiento
 
-            a.anexo.mb-4(:href="obtenerLink('/downloads/Guia_para_la_formulacion_del_plan_de_mejoramiento.pdf')" target="_blank")
+            a.anexo.mb-4(:href="obtenerLink('downloads/Guia_para_la_formulacion_del_plan_de_mejoramiento.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -90,7 +90,7 @@
                   strong Anexo. 
                   | Guía para la formulación del plan de mejoramiento
             
-            a.anexo.mb-4(:href="obtenerLink('/downloads/Instructivo_CB-0402F_Plan_mejoramient_formulacion_version_2.0.pdf')" target="_blank")
+            a.anexo.mb-4(:href="obtenerLink('downloads/Instructivo_CB-0402F_Plan_mejoramient_formulacion_version_2.0.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

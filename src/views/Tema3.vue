@@ -331,7 +331,7 @@
                   h3.mb-1 Participantes en el transporte marítimo y fluvial
                   p.mb-0.text-small Los equipos en cualquier organización son fundamentales para la consecución de objetivos, es así que para el transporte fluvial y marítimo existen roles que garantizan el cumplimiento de las metas.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Participantes_transporte_maritimo_y_fluvial.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/Participantes_transporte_maritimo_y_fluvial.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download             
 

@@ -104,7 +104,7 @@
                   p.mb-0.text-small empresarial, se hace necesario realizar una seria de preguntas 
                   p.mb-0.text-small y así conocer y reconocer el ADN de la organización a la cual se pertenece.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/DINAMICA_EMPRESARIAL_PREGUNTAS.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/DINAMICA_EMPRESARIAL_PREGUNTAS.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -197,7 +197,7 @@
                   p.mb-0.text-small Representación gráfica de la estructura organizativa  
                   p.text-small interna de la empresa.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/CF4-ejemplo_de_organigrama.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/CF4-ejemplo_de_organigrama.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
