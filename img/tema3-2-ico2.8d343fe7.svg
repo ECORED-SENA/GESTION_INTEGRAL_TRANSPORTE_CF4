@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="158.167" height="113.264" viewBox="0 0 158.167 113.264">
+  <g id="camion" transform="translate(0 -72.679)">
+    <g id="Grupo_83418" data-name="Grupo 83418" transform="translate(2.636 85.86)">
+      <path id="Trazado_144501" data-name="Trazado 144501" d="M369.706,240.982h15.817v-29L361.8,175.079h-29v65.9h10.544" transform="translate(-232.627 -156.626)" fill="#ff7758"/>
+      <path id="Trazado_144502" data-name="Trazado 144502" d="M29.622,199.7H8.533V115.346H108.706V199.7H55.983" transform="translate(-8.533 -115.346)" fill="#ffba5b"/>
+    </g>
+    <g id="Grupo_83419" data-name="Grupo 83419" transform="translate(2.636 157.035)">
+      <rect id="Rectángulo_31158" data-name="Rectángulo 31158" width="15.817" height="5.272" transform="translate(0 0)" fill="#f46b27"/>
+      <rect id="Rectángulo_31159" data-name="Rectángulo 31159" width="47.45" height="5.272" transform="translate(52.723 0)" fill="#f46b27"/>
+    </g>
+    <rect id="Rectángulo_31160" data-name="Rectángulo 31160" width="10.544" height="5.272" transform="translate(144.987 157.035)" fill="#dbdbdb"/>
+    <rect id="Rectángulo_31161" data-name="Rectángulo 31161" width="92.264" height="5.272" transform="translate(10.544 93.768)" fill="#f46b27"/>
+    <g id="Grupo_83420" data-name="Grupo 83420" transform="translate(23.725 157.035)">
+      <circle id="Elipse_4299" data-name="Elipse 4299" cx="13.181" cy="13.181" r="13.181" transform="translate(0 0)" fill="#126099"/>
+      <circle id="Elipse_4300" data-name="Elipse 4300" cx="13.181" cy="13.181" r="13.181" transform="translate(89.628 0)" fill="#126099"/>
+    </g>
+    <g id="Grupo_83421" data-name="Grupo 83421" transform="translate(0 72.679)">
+      <rect id="Rectángulo_31162" data-name="Rectángulo 31162" width="5.272" height="5.272" transform="translate(34.269 94.9)" fill="#dbdbdb"/>
+      <rect id="Rectángulo_31163" data-name="Rectángulo 31163" width="5.272" height="5.272" transform="translate(123.898 94.9)" fill="#dbdbdb"/>
+      <rect id="Rectángulo_31164" data-name="Rectángulo 31164" width="36.906" height="5.272" transform="translate(10.544)" fill="#dbdbdb"/>
+      <rect id="Rectángulo_31165" data-name="Rectángulo 31165" width="5.272" height="5.272" fill="#dbdbdb"/>
+    </g>
+    <path id="Trazado_144503" data-name="Trazado 144503" d="M392.161,209.213H366.933v23.725h40.491Z" transform="translate(-253.58 -94.356)" fill="#87ced9"/>
+    <path id="Trazado_144504" data-name="Trazado 144504" d="M407.424,236.181,393.11,213.906a66.1,66.1,0,0,1-26.177,18.848v3.427h40.491Z" transform="translate(-253.58 -97.599)" fill="#6cbbc7"/>
+    <path id="Trazado_144505" data-name="Trazado 144505" d="M134.021,126.478a2.64,2.64,0,0,0-2.214-1.213H105.445V109.449a2.637,2.637,0,0,0-2.636-2.636H2.636A2.637,2.637,0,0,0,0,109.449v84.356a2.637,2.637,0,0,0,2.636,2.636h18.69a15.817,15.817,0,0,0,31.159,0h58.469a15.817,15.817,0,0,0,31.159,0h13.418a2.637,2.637,0,0,0,2.636-2.636v-29a2.623,2.623,0,0,0-.422-1.423Zm3.058,14.6,11.942,18.453h-33.03V141.082ZM36.906,204.349A10.544,10.544,0,1,1,47.45,193.805,10.545,10.545,0,0,1,36.906,204.349Zm0-26.361a15.816,15.816,0,0,0-15.579,13.181H5.272V185.9H18.453v-5.272H5.272V112.085h94.9v5.272H10.544v5.272h89.628v57.995H55.359V185.9h44.814v5.272H52.485A15.818,15.818,0,0,0,36.906,177.988Zm89.628,26.361a10.544,10.544,0,1,1,10.544-10.544A10.545,10.545,0,0,1,126.534,204.349Zm15.579-13.181a15.817,15.817,0,0,0-31.159,0h-5.51V130.538h24.911l3.4,5.272h-20.4a2.637,2.637,0,0,0-2.636,2.636v23.725a2.637,2.637,0,0,0,2.636,2.636h39.041l.5.765v15.052h-7.908V185.9h7.908v5.272H142.113Z" transform="translate(0 -23.589)"/>
+    <rect id="Rectángulo_31167" data-name="Rectángulo 31167" width="5.272" height="5.272" transform="translate(34.269 167.579)"/>
+    <rect id="Rectángulo_31168" data-name="Rectángulo 31168" width="5.272" height="5.272" transform="translate(123.898 167.579)"/>
+    <rect id="Rectángulo_31169" data-name="Rectángulo 31169" width="36.906" height="5.272" transform="translate(10.544 72.679)"/>
+    <rect id="Rectángulo_31170" data-name="Rectángulo 31170" width="5.272" height="5.272" transform="translate(0 72.679)"/>
+  </g>
+</svg>
